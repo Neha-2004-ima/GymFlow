@@ -4,7 +4,7 @@ $currentPage = "booking";
 $extraStyles = ["booking.css"];
 include 'includes/header.php';
 ?>
-
+      
 <?php
 include 'includes/Database.php';
 
