@@ -1,0 +1,233 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BODY */
+body{
+    background-color: #000;
+    color: white;
+}
+
+
+/* Register Password */
+.password-wrapper {
+    position: relative;
+}
+
+.password-wrapper input {
+    width: 100%;
+    padding-right: 40px;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #666;
+    font-size: 16px;
+}
+
+.toggle-password:hover {
+    color: #000;
+}
+
+/* LOGIN CONTAINER */
+.login-container{
+    width: 400px;
+    margin: 80px auto;
+    padding: 40px;
+    border: 1px solid #00ff00;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.login-container h1{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.login-container p{
+    color: #aaa;
+    margin-bottom: 30px;
+}
+
+/* FORM */
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label{
+    text-align: left;
+    font-size: 14px;
+}
+
+input{
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background-color: #111;
+    color: white;
+    outline: none;
+}
+
+input:focus{
+    border-color: #00ff00;
+}
+
+/* EXTRA LINKS */
+.extra{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.extra a{
+    color: #00ff00;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.extra a:hover{
+    text-decoration: underline;
+}
+
+/* BUTTONS */
+.member-btn{
+    background-color: #00ff00;
+    color: black;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.member-btn:hover{
+    background-color: #00cc00;
+}
+
+.admin-btn{
+    background-color: transparent;
+    color: white;
+    padding: 12px;
+    border: 1px solid #00ff00;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.admin-btn:hover{
+    background-color: #00ff00;
+    color: black;
+}
+
+/* BOTTOM LINK */
+form p{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+form p a{
+    color: #00ff00;
+    text-decoration: none;
+}
+
+form p a:hover{
+    text-decoration: underline;
+}
+
+/* REGISTER CONTAINER */
+.register-container{
+    width: 650px;
+    margin: 60px auto;
+    padding: 40px;
+    border: 1px solid #00ff00;
+    border-radius: 15px;
+}
+
+/* ROW FOR 2 COLUMNS */
+.row{
+    display: flex;
+    gap: 20px;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+.input-group label{
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+textarea{
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background-color: #111;
+    color: white;
+    outline: none;
+    resize: none;
+}
+
+textarea:focus,
+select:focus{
+    border-color: #00ff00;
+}
+
+select{
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background-color: #111;
+    color: white;
+}
+
+/* TERMS */
+.terms{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.terms a{
+    color: #00ff00;
+    text-decoration: none;
+}
+
+.terms a:hover{
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #000000;  
+  color: #fff;             
+  text-align: center;      
+  padding: 20px 10px;      
+  font-family: Arial, sans-serif;
+}
+
+footer a {
+  color: #0f0;             
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

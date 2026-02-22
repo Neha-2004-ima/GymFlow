@@ -1,0 +1,160 @@
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Row */
+.header-row {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.header-row h1 {
+  color: #39ff14; 
+  font-size: 36px;
+  margin: 0;
+}
+
+.header-row p {
+  color: #aaa; 
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Plans Row */
+.plans-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/*  Plan Box */
+.plan-box {
+  background-color: #000;
+  border: 2px solid #39ff14; 
+  border-radius: 10px;
+  width: 300px;
+  padding: 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.most-popular {
+  border: 2px solid #ff0; 
+}
+
+/* Plan Titles & Prices */
+.plan-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #39ff14;
+  margin-bottom: 5px;
+}
+
+.plan-subtitle {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.plan-price {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* Plan Features */
+.plan-features {
+  list-style: disc;
+  padding-left: 20px; 
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.plan-features li {
+  margin-bottom: 10px;
+}
+
+/* Button */
+.plan-button {
+  background-color: #39ff14;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.plan-button:hover {
+  background-color: #28c700;
+}
+
+/* Features Row */
+.features-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+/* Feature Box */
+.feature-box {
+  background-color: #000;
+  border: 2px solid #39ff14;
+  border-radius: 10px;
+  width: 250px;
+  padding: 30px;
+  box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature-icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.feature-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #39ff14;
+}
+
+.feature-desc {
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* Footer */
+footer {
+  background-color: #000;  
+  color: #fff;             
+  text-align: center;      
+  padding: 20px 10px;      
+  font-family: Arial, sans-serif;
+}
+
+footer a {
+  color: #0f0;             
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

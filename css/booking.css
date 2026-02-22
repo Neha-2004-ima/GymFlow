@@ -1,0 +1,138 @@
+/* Body */
+body {
+    margin: 0;
+    font-family:Arial, sans-seri;
+    background: #000000;
+    color: white;
+}
+
+/* Header */
+.header {
+    padding: 60px;
+}
+
+.header h1 {
+    font-size: 48px;
+    color: #00ff2a;
+}
+
+.header p {
+    color: #aaa;
+}
+
+/* Day Buttons */
+.days {
+    padding: 0 60px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.day {
+    padding: 12px 22px;
+    background: #1a1a1a;
+    border-radius: 12px;
+    border: 1px solid #222;
+    color: white;
+    cursor: pointer;
+}
+
+.day.active {
+    background: #00ff2a;
+    color: black;
+}
+
+/* Cards */
+.card {
+    margin: 30px 60px;
+    padding: 25px;
+    background: #111;
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card.almost {
+    background: #2a0000;
+    border: 1px solid #440000;
+}
+
+small {
+    color: #00ff2a;
+}
+
+.card.almost small {
+    color: red;
+}
+
+.right {
+    text-align: right;
+}
+
+.spots {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.progress {
+    width: 180px;
+    height: 8px;
+    background: #333;
+    border-radius: 5px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.fill {
+    height: 100%;
+    background: #00ff2a;
+}
+
+.fill.red {
+    background: red;
+}
+
+.book-btn {
+    padding: 8px 25px;
+    background: #00ff2a;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Info Section */
+.info {
+    margin: 60px;
+    padding: 30px;
+    background: #003300;
+    border-radius: 18px;
+}
+
+.info h3 {
+    color: #00ff2a;
+}
+
+.info li {
+    margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: #fff;             
+  text-align: center;      
+  padding: 20px 10px;      
+  font-family: Arial, sans-serif;
+}
+
+footer a {
+  color: #0f0;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
